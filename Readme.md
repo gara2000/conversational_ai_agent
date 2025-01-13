@@ -1,6 +1,10 @@
 # Conversational REACT Agent
 ## Description
-This is a conversational agent built with langgraph, the agent supports 2 different tools, a data-retrieval tool and a websearch tool.  
+This is a conversational agent built with langgraph, the agent supports 2 tools, a data-retrieval tool and a websearch tool.  
+### Data-retriever
+This tool retrieves data related to touristic destinations in Italy, the data is stored in a vector store.
+### Web-search
+This tool performs a websearch using the Tavily websearch API.
 ## Get Started
 Create virtual environment `react_agent` and activate it.  
 Install required libraries with `pip install -r requirements.txt`.  
